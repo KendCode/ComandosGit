@@ -1,0 +1,58 @@
+--------------------COMANDOS DE GIT-------------------------
+
+git init //INICIALIZAR
+
+git status //ESTADO
+
+git add .  //AÑADIR ARCHIVOS Y CARPETAS
+
+git commit -m "commit"  //IDENTIFICA CAMBIOS HECHOS
+
+git push //SUBE LOS CAMBIOS HECHOS
+
+git log //VE EL HISTORIAL
+
+git log -s
+
+git log --oneline
+
+git log --graph //EL HISTORIAL CON LA RAMA
+
+git diff //PARA VER LOS CAMBIOS QUE HICIMOS EN UN CODIGO
+
+git checkout <NOMBRE DE LA RAMA> //PERMITE DESPLAZARTE ENTRE LAS RAMAS CREADAS
+
+git reset //PARA ELIMINAR COMMIT
+
+git reset --hard idCommit //ELIMINA COMMIT Y LOS CAMBIOS QUE SE HIZO
+
+git reflog //HISTORIAL COMPLETO
+
+git tag <nombre o version>//CREA UNA VERSION NOMBRE A UN IDENTIFICADOR
+
+git tag //MUESTRA LOS TAG
+
+git checkout tag/NOMBRE DE TAG //PARA DESPLASARTE EN TAG
+
+*****************CREAR RAMAS*********************************
+
+git branch <nombre de la nueva rama> //CREAR UNA NUEVA RAMA
+
+git switch //PARA CAMBIAR DE RAMA
+
+git merge <NOMBRE DE A DONDE SE IRA TODO> //HACER CAMBIOS FUSIONAR 
+
+git branch -d <nombre de la rama> //ELIMINAR RAMA
+
+git fetch //MUESTRA EL HISTORIAL
+
+git pull //DESCARGA HISTORIAL Y LOS CAMBIOS
+
+git clone enlace de repositorio//CLONAR REPOSITORIO 
+ 
+
+git log --graph --decorate --all --oneline
+
+
+
+//////////////COLOCAR ALIAS////////////
